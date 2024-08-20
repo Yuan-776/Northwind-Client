@@ -19,13 +19,15 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
           <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <!-- client css -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+              <!-- client css -->
     <link rel="stylesheet" href="client.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-primary-subtle">
+    <nav class="navbar navbar-expand-md bg-danger-subtle">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><i class="bi bi-compass"></i> Northwind</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -67,7 +69,21 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">Hello World!</div>
-</body>
+    <div class="container-fluid">
+        <div class="p-4 m-2 mt-4 rounded-3 border border-primary-subtle bg-light">
+            <h1 class="display-4 fw-bold text-center text-primary">
+                Welcome to Northwind
+            </h1>
+            <p class="fs-4 text-center">
+                Discover unbeatable prices and a diverse selection of high-quality foods &amp; beverages! Explore our exclusive discounts below.
+            </p>
+            <hr class="my-4">
+            <p class="fs-5 text-center">For a remarkable taste of international cuisine, look no further.</p>
+            <div class="text-center">
+                <a class="btn btn-primary btn-lg" href="#" role="button"><i class="bi bi-cart-fill"></i> Shop Now</a>
+            </div>
+        </div>
+    </div>
+    </body>
 
 </html>
